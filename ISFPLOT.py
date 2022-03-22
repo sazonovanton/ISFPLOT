@@ -110,6 +110,7 @@ window = Tk()
 window.title('ISFPLOT')
 window.geometry("350x150")
 window.config(background = "white")
+window.resizable(False, False)
 
 # Create a File Explorer
 label_file_explorer = Label(window,

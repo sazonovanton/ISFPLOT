@@ -5,9 +5,14 @@ For now it can make a plot (from ISF and CSV) and write data as CSV, but for one
 
 *Special thanks to Konstantin Shpakov for [ISF reader](https://github.com/shpakovkv/isf-converter-py).*
 
+Windows executable build with pyinstaller:
+```
+pyinstaller --onefile --windowed --icon=favicon.ico .\ISFPLOT.py
+```
 
 ## todo
 
 1. Add multiple channels processing
 2. Refactor code
 3. Beautify
+4. Compress .exe file
