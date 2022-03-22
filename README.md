@@ -10,4 +10,4 @@ For now it can make a plot (from ISF and CSV) and write data as CSV, but for one
 
 1. Add multiple channels processing
 2. Refactor code
-3. Beautify
+3. Beautify GUI
